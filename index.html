@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="shortcut icon" href="iphone.png.png"="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="logo"><span>My Calculator <br><span id="element"></span></span></div>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" placeholder="0" id="calc-input">
+        </div>
+        <div class="calculator-btn">
+        <div class="btn" style="color: black; background-color: #9f9f9f;">AC</div>
+        <div class="btn" style="color: black; background-color: #9f9f9f;">DE</div>
+        <div class="btn" style="color: black; background-color: #9f9f9f;">00</div>
+        <div class="btn">/</div>
+        <div class="btn dark-grey">7</div>
+        <div class="btn dark-grey">8</div>
+        <div class="btn dark-grey">9</div>
+        <div class="btn">*</div>
+        <div class="btn dark-grey">4</div>
+        <div class="btn dark-grey">5</div>
+        <div class="btn dark-grey">6</div>
+        <div class="btn">-</div>
+        <div class="btn dark-grey">1</div>
+        <div class="btn dark-grey">2</div>
+        <div class="btn dark-grey">3</div>
+        <div class="btn">+</div>
+        <div class="btn dark-grey zero">0</div>
+        <div class="btn dark-grey">.</div>
+        <div class="btn">=</div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Easy.', 'Fast.','Reliable.'],
+      typeSpeed: 50,
+    });
+  </script>   
+    <script src="./script.js"></script>
+</body>
+</html>
